@@ -28,6 +28,7 @@
 }
 #selectField img {
   width: 12px;
+  transition: transform 0.5s;
 }
 
 #list {
@@ -54,6 +55,9 @@
 .options:hover {
   background: rgba(255, 255, 255, 0.7);
 }
-.hide{
-    visibility: hidden;
+.hide {
+  visibility: hidden;
+}
+.rotate{
+  transform: rotate(180deg);
 }
